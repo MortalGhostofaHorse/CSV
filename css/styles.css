@@ -1,0 +1,119 @@
+/***********************************************************Elements' Style***********************************************************/
+body {
+    margin:0px;
+    height: 100vh;
+    cursor:url('../images/2.png'), auto;
+    font-family: sans-serif;
+}
+h1 {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #7a9aaa;
+}
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #7a9aaa;
+}
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #7a9aaa;
+}
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #86a5b4;
+}
+hr {
+    border: 3px solid;
+    border-color: #C9CCD5;
+}
+/***********************************************************CLasses' Style***********************************************************/
+.top-container {
+    background: rgb(255,227,227);
+    background: linear-gradient(180deg, rgba(255,227,227,1) 0%, rgba(216,235,240,1) 100%);
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.cloud {
+    height: 100px;
+}
+
+.tree {
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 50px;
+}
+.middle-container {
+    text-align: center;
+    background: rgb(216,235,240);
+    background: linear-gradient(180deg, rgba(216,235,240,1) 0%, rgba(255,227,227,1) 100%);
+}
+.skills-image {
+    width:60px;
+}
+.profile {
+    margin-left: 30px;
+}
+.skills{
+    margin-left: 30px;
+}
+.contact-me {
+    margin-left: 30px;
+}
+.bottom-container {
+    text-align: center;
+    background: rgb(255,227,227);
+    background: linear-gradient(180deg, rgba(255,227,227,1) 0%, rgba(216,235,240,1) 100%);
+}
+.for margin {
+    margin-left: 30px;   
+}
+.footer-link {
+    margin-left:30px;
+}
+.social-links {
+    width: 40px;
+    margin: 8px;
+}
+.btn {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #86a5b4;
+}
+/***********************************************************IDs' Style***********************************************************/
+#bottom-cloud {
+    position: absolute;
+    right: 940px;
+    top: 120px;
+}
+#top-cloud {
+    position: absolute;
+    right: 150px;
+    top: 70px;
+}
+#waitress {
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#profile-photo {
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: #C9CCD5;
+    width: 200px;
+}
+#author {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 40px;
+}
