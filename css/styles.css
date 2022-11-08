@@ -14,24 +14,30 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #7a9aaa;
+    padding-bottom: 10px;
 }
 h2 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #7a9aaa;
+    padding-bottom: 10px;
 }
 h3 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #7a9aaa;
+    padding-bottom: 10px;
 }
 p {
     font-family:Arial, Helvetica, sans-serif;
     color: #86a5b4;
+    line-height: 1.5;
 }
 hr {
-    border: 3px solid;
-    border-color: #C9CCD5;
+    border: dotted #C9CCD5 8px;
+    width:5%;
+    border-bottom: none;
+    margin: 100px auto;
 }
 /***********************************************************CLasses' Style***********************************************************/
 .top-container {
@@ -57,7 +63,9 @@ hr {
     background: linear-gradient(180deg, rgba(216,235,240,1) 0%, rgba(255,227,227,1) 100%);
 }
 .skills-image {
-    width:60px;
+    width:8%;
+    float: left;
+    margin-right: 2%;
 }
 .profile {
     margin-left: 30px;
@@ -66,12 +74,11 @@ hr {
     margin-left: 30px;
 }
 .contact-me {
-    margin-left: 30px;
+    margin-left: auto;
 }
 .bottom-container {
     text-align: center;
-    background: rgb(255,227,227);
-    background: linear-gradient(180deg, rgba(255,227,227,1) 0%, rgba(216,235,240,1) 100%);
+    background-color: #E4D8DC   ;
 }
 .for margin {
     margin-left: 30px;   
@@ -87,6 +94,12 @@ hr {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     color: #86a5b4;
+}
+.skill-row {
+    width:50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    line-height: 1.5;
 }
 /***********************************************************IDs' Style***********************************************************/
 #bottom-cloud {
@@ -113,7 +126,15 @@ hr {
     width: 200px;
 }
 #author {
-    padding-top:10px;
-    padding-bottom:10px;
-    padding-left: 40px;
+    margin:auto;
+    padding-bottom: 2%;
+}
+
+#design-text {
+    text-align: right;
+}
+#intro {
+    width: 40%;
+    margin:auto;
+    padding-bottom: 3%;
 }
